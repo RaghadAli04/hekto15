@@ -51,6 +51,9 @@ ul {
 .gap15 {
     gap: 15px;
 }
+.txt-center{
+    text-align: center;
+}
 
 .btn {
     outline: none;
@@ -61,6 +64,7 @@ ul {
     font-size: 12px;
     cursor: pointer;
 }
+
 
 header svg {
     display: none;
