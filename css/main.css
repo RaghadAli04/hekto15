@@ -55,6 +55,22 @@
 }
 
 /* Main Section - Newsletter */
+.newslater {
+    background: url(../img/public/newslater.webp) no-repeat center/cover;
+    height: 70vh;
+    margin: 50px 0 82px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.newslater p {
+    color: var(--darkblue);
+    font-size: 28px;
+    padding: 10px;
+}
+
 /* Footer */
 .footer {
     background-color: var(--bg-footer);
