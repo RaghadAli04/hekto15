@@ -1,0 +1,57 @@
+/* Navbar */
+.navbar {
+    padding: 57px 0;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.navbar a {
+    color: var(--textcolor);
+}
+
+.navbar .active {
+    color: var(--boxcolor);
+}
+.active{
+    color:var(--boxcolor);
+}
+
+.search form {
+    display: flex;
+    border: 1px solid var(--border);
+}
+
+.search input,
+.search button {
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.search button {
+    background-color: var(--boxcolor);
+    padding: 5px;
+    color: #fff;
+}
+
+.search img {
+    padding: 5px 12px;
+}
+
+/* Mobile  */
+@media screen and (max-width: 1070px) {
+    .list,
+    .search {
+        display: none;
+    }
+
+    header svg {
+        display: block;
+    }
+}
+
+/* Main Section - Newsletter */
