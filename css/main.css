@@ -55,3 +55,67 @@
 }
 
 /* Main Section - Newsletter */
+/* Footer */
+.footer {
+    background-color: var(--bg-footer);
+    padding: 47px;
+}
+
+.footer .row {
+    align-items: flex-start;
+}
+
+.footer .footer-item h2 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer .footer-item a {
+    color: var(--gray);
+    font-size: 15px;
+}
+
+footer .left-side,
+footer .right-side,
+footer .footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .right-side {
+    width: 60%;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer .left-side {
+    width: 30%;
+}
+
+.right-side .footer-item a,
+.footer .left-side h2 {
+    color: var(--gray);
+}
+
+footer .search form {
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 1107px) {
+    footer .row {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    footer .left-side,
+    footer .right-side {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    footer .right-side {
+        justify-content: flex-start;
+    }
+}
