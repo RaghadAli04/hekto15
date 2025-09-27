@@ -102,7 +102,7 @@
     transform: translateX(40px);
 }
 
-/* Responsive*/
+/* Responsive hero*/
 
 @media (max-width: 800px) {
     .hero-content {
@@ -189,7 +189,7 @@
 
 }
 
-.featured-products .product-details {
+.product-details {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -226,7 +226,7 @@
     background-color: #00009D;
 }
 
-.featured-products .product .icons {
+.product .icons {
     position: absolute;
     left: 20px;
     padding: 10px 0;
@@ -237,7 +237,7 @@
     opacity: 1;
 }
 
-.featured-products .product .icons img {
+.product .icons img {
     width: 20px;
     height: 20px;
 }
@@ -261,6 +261,88 @@
 }
 
 
+
+/* Leatest */
+.leatest-products ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.leatest-products .txt-leatest {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    color: #151875;
+}
+
+.leatest-products {
+    padding: 100px 0px;
+}
+
+.leatest-products .row {
+    justify-content: center;
+    gap: 63px;
+    margin-top: 20px;
+}
+
+.leatest-products .product {
+    flex: 1 0 350px;
+    background-color: #ffffff;
+    position: relative;
+    max-width: 311px;
+}
+
+
+.leatest-products .product-img {
+    background-color: #F7F7F7;
+    text-align: center;
+
+}
+
+.leatest-products img {
+    object-fit: contain;
+    width: 142px;
+    height: 180px;
+
+}
+
+.leatest-products .product-info {
+    justify-content: space-between;
+    color: #151875;
+}
+
+
+.leatest-products .product .icons {
+    opacity: 1;
+    left: 20px;
+    bottom: 30px;
+    padding: 10px 0;
+}
+
+.leatest-products .product-img .white {
+    background-color: #fff;
+}
+
+.red {
+    color: #FB2448;
+    ;
+}
+
+.leatest-products .price span.red {
+    text-decoration: line-through;
+}
+
+.leatest-products .badge-sale {
+    position: absolute;
+}
+
+.leatest-products .badge-sale img {
+    width: 104px;
+    height: 76px;
+}
 
 
 /* Main Section - Newsletter */
