@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    border: none;
 }
 
 :root {
@@ -17,6 +19,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 
 a {
     text-decoration: none;
@@ -43,9 +46,16 @@ ul {
 .df {
     display: flex;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 
 .flex-column {
     flex-direction: column;
+}
+.align-itemc{
+    align-items: center;
+
 }
 
 .gap15 {
@@ -63,6 +73,7 @@ ul {
     color: #fff;
     font-size: 12px;
     cursor: pointer;
+    width:133px;
 }
 
 
