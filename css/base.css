@@ -46,14 +46,16 @@ ul {
 .df {
     display: flex;
 }
-.flex-wrap{
+
+.flex-wrap {
     flex-wrap: wrap;
 }
 
 .flex-column {
     flex-direction: column;
 }
-.align-itemc{
+
+.align-itemc {
     align-items: center;
 
 }
@@ -61,7 +63,8 @@ ul {
 .gap15 {
     gap: 15px;
 }
-.txt-center{
+
+.txt-center {
     text-align: center;
 }
 
@@ -73,11 +76,11 @@ ul {
     color: #fff;
     font-size: 12px;
     cursor: pointer;
-    width:133px;
+    width: 133px;
 }
 
 
-header svg {
+svg {
     display: none;
     width: 30px;
 }

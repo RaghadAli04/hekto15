@@ -158,24 +158,30 @@
 
 
 /*Main section - Featured products*/
-.featured-products {
+.featured-products,
+.shopex-offer {
     padding: 100px 0px;
 }
 
-.featured-products .row {
+.featured-products .row,
+.shopex-offer .row {
     justify-content: start;
     gap: 15px;
 }
 
-.featured-products .product {
+.featured-products .product,
+.shopex-offer .product {
     flex: 1 0 243px;
     background-color: #ffffff;
     box-shadow: 0px 0px 25px #0000001a;
     position: relative;
 }
 
-.featured-products h2 {
+main h2 {
     margin: 20px 0px 40px;
+    color: #151875;
+    text-align: center;
+
 }
 
 .featured-products .product-img {
@@ -192,8 +198,9 @@
 .product-details {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 23px;
     transform: all .6s;
+    justify-content: center;
 }
 
 .featured-products .product-details h3 {
@@ -242,7 +249,7 @@
     height: 20px;
 }
 
-.product:hover .product-details {
+.featured-products .product:hover .product-details {
     background-color: #2F1AC4;
     transition: .6s;
 }
@@ -251,8 +258,8 @@
     opacity: 1;
 }
 
-.product:hover .product-details h3,
-.product:hover .product-details span {
+.featured-products .product:hover .product-details h3,
+.featured-products .product:hover .product-details span {
     color: #fff;
 }
 
@@ -292,7 +299,7 @@
     flex: 1 0 350px;
     background-color: #ffffff;
     position: relative;
-    max-width: 311px;
+    max-width: 306px;
 }
 
 
@@ -316,10 +323,13 @@
 
 
 .leatest-products .product .icons {
-    opacity: 1;
     left: 20px;
     bottom: 30px;
     padding: 10px 0;
+}
+
+.leatest-products .product:hover .icons {
+    opacity: 1;
 }
 
 .leatest-products .product-img .white {
@@ -343,6 +353,64 @@
     width: 104px;
     height: 76px;
 }
+
+@media screen and (max-width: 426px) {
+    .leatest-products svg {
+        display: block;
+    }
+
+    .leatest-products ul {
+        display: none;
+    }
+}
+
+/*Shopex-offer section*/
+.shopex-offer .product .product-img img {
+    object-fit: contain;
+    width: 70px;
+    height: 120px;
+}
+
+.shopex-offer .product-img {
+    margin: 44px 0px 10px;
+}
+
+.shopex-offer .product {
+    max-width: 306px;
+
+}
+
+.shopex-offer .product .product-details {
+    margin-bottom: 30px;
+}
+
+.shopex-offer .product-details .product-info {
+    gap: 20px;
+}
+
+.shopex-offer .product-info h3 {
+    font-weight: 600;
+    color: #151875;
+    font-size: 21px;
+    line-height: normal;
+}
+
+.shopex-offer .product-info p {
+    color: #1a0b5b4c;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 25.6px
+}
+
+.product {
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
 
 
 /* Main Section - Newsletter */
