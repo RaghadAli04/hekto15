@@ -60,6 +60,10 @@ ul {
 
 }
 
+.JCspace {
+    justify-content: space-between;
+}
+
 .gap15 {
     gap: 15px;
 }
